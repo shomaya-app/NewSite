@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+/*
+Base Styles
+* -------------- */
+html {
+  font-size:62.5%; /* 16px * 62.5% = 10px */
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #333333;
+  line-height: 1.75;
+}
+
+@media (max-width: 768px) {}
+
+@theme {
+  /* Text */
+  --color-text-link: #2677f0;
+}

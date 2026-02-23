@@ -1,0 +1,25 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "cSpell.words": [
+    "composables",
+    "Datetime",
+    "dirents",
+    "nofollow",
+    "noopener",
+    "noreferrer",
+    "nuxi",
+    "Nuxt",
+    "nuxtjs",
+    "postcss",
+    "tailwindcss",
+    "unreservable",
+    "unsign"
+  ]
+}
