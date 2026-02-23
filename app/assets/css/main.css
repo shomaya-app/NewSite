@@ -4,15 +4,20 @@
 Base Styles
 * -------------- */
 html {
-  font-size:62.5%; /* 16px * 62.5% = 10px */
+  font-size: 62.5%; /* 16px * 62.5% = 10px */
   font-family: 'Noto Sans JP', sans-serif;
   color: #333333;
   line-height: 1.75;
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+}
 
 @theme {
+  --breakpoint-pc: 1024px;
   /* Text */
   --color-text-link: #2677f0;
+
+  /* Color */
+  --color-gold-navigation: #bf842b;
 }
