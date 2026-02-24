@@ -4,4 +4,6 @@
   <div>
     <slot />
   </div>
+
+  <TemplatesFooter />
 </template>
