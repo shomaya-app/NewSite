@@ -1,4 +1,4 @@
 <template>
-  <h1 class="text-[25px]">News & Insights</h1>
+  <PagesNewsInsights />
 </template>
 <script setup lang="ts"></script>
