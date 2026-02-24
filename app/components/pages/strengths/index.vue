@@ -4,13 +4,12 @@
 
 <script setup lang="ts">
 useHead({
-  title:
-    '弊社の強み｜一般社団法人 日本バングラデシュコンサルティング＆トレーディング',
+  title: 'Our Strengths｜Association Japan Bangladesh Consulting & Trading',
   meta: [
     {
       name: 'description',
       content:
-        '一般社団法人 日本バングラデシュコンサルティング＆トレーディングの強みについて'
+        'About our strengths as a consulting and trading company in Bangladesh'
     }
   ]
 })
