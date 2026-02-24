@@ -20,4 +20,22 @@ html {
 
   /* Color */
   --color-gold-navigation: #bf842b;
+
+  /* font */
+  --font-NotoSansJP: 'Noto Sans JP', sans-serif;
+  --font-Roboto: 'Roboto', sans-serif;
+}
+
+@layer utilities {
+  .counter-reset {
+    counter-reset: step;
+  }
+
+  .counter-increment {
+    counter-increment: step;
+  }
+
+  .counter-before::before {
+    content: counter(step);
+  }
 }
