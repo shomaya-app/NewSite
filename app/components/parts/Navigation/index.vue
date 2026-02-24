@@ -45,6 +45,7 @@
 
 <script setup lang="ts">
 import { ref, watch } from 'vue'
+import { NAV_LINKS } from '~/constants/index'
 
 const route = useRoute()
 
@@ -69,16 +70,7 @@ watch(isOpen, (val) => {
   document.body.style.overflow = val ? 'hidden' : ''
 })
 
-const navigationLinks = [
-  { name: 'HOME', path: '/' },
-  { name: 'About', path: '/about' },
-  { name: 'Mission&Vision', path: '/mission_vision' },
-  { name: 'Strengths', path: '/strengths' },
-  { name: 'Services', path: '/services' },
-  { name: 'Focus Areas', path: '/focus_areas' },
-  { name: 'News＆Insights', path: '/news_insights' },
-  { name: 'Contact', path: '/contact' }
-]
+const navigationLinks = NAV_LINKS
 </script>
 
 <style>
