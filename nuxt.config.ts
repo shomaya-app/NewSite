@@ -33,18 +33,9 @@ export default defineNuxtConfig({
       title: SERVICE_NAME,
       meta: [{ name: 'robots', content: 'noindex, nofollow' }],
       link: [
-        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-        {
-          rel: 'preconnect',
-          href: 'https://fonts.gstatic.com',
-          crossorigin: ''
-        },
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:wght@100..900&display=swap',
-          crossorigin: '',
-          onload: 'this.media=all',
-          media: 'print'
+          href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap'
         }
       ]
     }
