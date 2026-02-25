@@ -1,4 +1,4 @@
 <template>
-  <h1 class="text-[25px]">About</h1>
+  <PagesAbout />
 </template>
 <script setup lang="ts"></script>
