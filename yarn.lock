@@ -4235,6 +4235,7 @@ __metadata:
     nuxt: ^4.3.1
     prettier: ^3.8.1
     prettier-plugin-tailwindcss: ^0.7.2
+    swiper: ^12.1.2
     tailwindcss: ^4.2.0
     terser: ^5.46.0
     typescript: ^5.9.3
@@ -9904,6 +9905,13 @@ __metadata:
   bin:
     svgo: ./bin/svgo.js
   checksum: bddf57bda7b4e8252e5f8c5aa8555ec9810f963369bad17476cf21881e0b5fd3dfffcffddebd7b8b4c80b7e64b508589fad5be055d143d70b28ef0dee2583fcc
+  languageName: node
+  linkType: hard
+
+"swiper@npm:^12.1.2":
+  version: 12.1.2
+  resolution: "swiper@npm:12.1.2"
+  checksum: 1b7fcc647573f7c58cb67a48265ad7a1667e991b66a9859295bf9ab8696c7427f39b34ba2b5e043bf828389b0f363bca1cba0bfbf10d5f459d26a7329352675a
   languageName: node
   linkType: hard
 
