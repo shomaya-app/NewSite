@@ -5,10 +5,10 @@
       <li
         v-for="link in navigationLinks"
         :key="link.path"
-        class="hover:text-primary hover:bg-gold-navigation flex min-w-[110px] items-center justify-center border-x border-x-white px-[21px] leading-[80px] font-medium hover:text-white"
+        class="hover:text-primary hover:bg-gold-navigation flex min-w-[110px] items-center justify-center border-x border-x-white leading-[80px] font-medium hover:text-white"
         :class="getNavigationBackgroundColor(link.path)"
       >
-        <NuxtLink :to="link.path" class="text-[1.4rem]">
+        <NuxtLink :to="link.path" class="px-[21px] text-[1.4rem]">
           {{ link.name }}
         </NuxtLink>
       </li>
