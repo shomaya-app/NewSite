@@ -4,12 +4,12 @@
 
 <script setup lang="ts">
 useHead({
-  title: '一般社団法人 日本バングラデシュコンサルティング＆トレーディング',
+  title: 'Association Japan Bangladesh Consulting & Trading',
   meta: [
     {
       name: 'description',
       content:
-        '一般社団法人 日本バングラデシュコンサルティング＆トレーディングの公式ウェブサイト'
+        'Association Japan Bangladesh Consulting & Trading is a consulting and trading company in Bangladesh that provides various services and focuses on specific areas to support businesses and organizations in Bangladesh.'
     }
   ]
 })
