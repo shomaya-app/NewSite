@@ -1,7 +1,8 @@
 <template>
   <Transition name="fade" appear>
     <div
-      class="pc:h-[450px] flex h-[250px] w-full flex-col items-center justify-center gap-[20px] px-[20px]"
+      class="flex w-full flex-col items-center justify-center gap-[20px] px-[20px]"
+      :class="getHeightClass()"
     >
       <h1 class="pc:text-[60px] text-[30px]">{{ title }}</h1>
       <p v-if="subtitle" class="pc:text-[20px] text-[1.6rem]">
@@ -15,9 +16,14 @@
 type Props = {
   title: string
   subtitle?: string
+  heightClass?: string
 }
 
-defineProps<Props>()
+const props = defineProps<Props>()
+
+const getHeightClass = () => {
+  return props.heightClass ? props.heightClass : 'pc:h-[450px] h-[250px]'
+}
 </script>
 
 <style>
