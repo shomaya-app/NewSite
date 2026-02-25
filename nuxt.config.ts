@@ -1,23 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { SERVICE_NAME } from './app/constants'
-import legacy from '@vitejs/plugin-legacy'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
+  devtools: { enabled: false },
 
   vite: {
-    plugins: [
-      tailwindcss(),
-      legacy({
-        targets: ['defaults', 'not IE 11'],
-        modernPolyfills: true
-      })
-    ],
-    build: {
-      target: ['es2020', 'safari15']
-    }
+    plugins: [tailwindcss()]
   },
 
   runtimeConfig: {
