@@ -4,6 +4,7 @@
     "app/**/*.ts",
     "app/**/*.vue",
     "nuxt.config.ts",
+    "server/**/*.ts"
   ],
   "exclude": ["node_modules", ".nuxt"]
 }

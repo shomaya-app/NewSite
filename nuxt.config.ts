@@ -11,6 +11,7 @@ export default defineNuxtConfig({
   },
 
   runtimeConfig: {
+    resendApiKey: process.env.RESEND_API_KEY,
     public: {
       NUXT_PUBLIC_APP_ENV: process.env.NUXT_PUBLIC_APP_ENV
     }
@@ -20,6 +21,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   nitro: {
+    preset: 'cloudflare-pages',
     prerender: {
       failOnError: true,
       autoSubfolderIndex: false
@@ -51,7 +53,7 @@ export default defineNuxtConfig({
   },
 
   imports: {
-    dirs: ['composables']
+    dirs: ['composables/**']
   },
 
   sourcemap: {
