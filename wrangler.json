@@ -1,0 +1,13 @@
+{
+  "name": "jp-bg",
+  "routes": [
+    {
+      "pattern": "jp-bg.com/*",
+      "zone_name": "jp-bg.com"
+    },
+    {
+      "pattern": "www.jp-bg.com/*",
+      "zone_name": "jp-bg.com"
+    }
+  ]
+}
