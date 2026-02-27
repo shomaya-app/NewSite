@@ -20,7 +20,6 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   nitro: {
-    preset: 'cloudflare',
     prerender: {
       failOnError: true,
       autoSubfolderIndex: false
