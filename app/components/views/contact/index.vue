@@ -5,9 +5,4 @@
   />
 </template>
 
-<script setup lang="ts">
-// import { useContactViews } from '@/composables/views/useContactViews'
-
-// const { name, email, message, loading, success, error, handleSubmitContact } =
-//   useContactViews()
-</script>
+<script setup lang="ts"></script>
