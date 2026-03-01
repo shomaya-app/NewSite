@@ -25,9 +25,7 @@
     </div>
 
     <!-- コピーライト -->
-    <div
-      class="bg-gold-navigation border-t py-6 text-center text-xs text-white"
-    >
+    <div class="bg-deep-green border-t py-6 text-center text-xs text-white">
       <small>
         Copyright © {{ year }}
         Association Japan Bangladesh Consulting & Trading All Rights Reserved.

@@ -31,7 +31,7 @@
     </div>
     <NuxtLink
       href="/mission_vision"
-      class="bg-gold-navigation mx-auto mt-[40px] block w-max rounded-[30px] px-[30px] py-[10px] text-center text-[1.4rem] font-bold text-white transition-colors hover:bg-[#bf842b]/80"
+      class="bg-deep-green mx-auto mt-[40px] block w-max rounded-[30px] px-[30px] py-[10px] text-center text-[1.4rem] font-bold text-white transition-colors hover:bg-[#005239]/80"
     >
       View More Mission & Vision
     </NuxtLink>
@@ -67,7 +67,7 @@
     </div>
     <NuxtLink
       href="/strengths"
-      class="bg-gold-navigation mx-auto mt-[40px] block w-max rounded-[30px] px-[30px] py-[10px] text-center text-[1.4rem] font-bold text-white transition-colors hover:bg-[#bf842b]/80"
+      class="bg-deep-green mx-auto mt-[40px] block w-max rounded-[30px] px-[30px] py-[10px] text-center text-[1.4rem] font-bold text-white transition-colors hover:bg-[#005239]/80"
     >
       View More Strengths
     </NuxtLink>
@@ -99,7 +99,7 @@
     </div>
     <NuxtLink
       href="/services"
-      class="bg-gold-navigation mx-auto mt-[40px] block w-max rounded-[30px] px-[30px] py-[10px] text-center text-[1.4rem] font-bold text-white transition-colors hover:bg-[#bf842b]/80"
+      class="bg-deep-green mx-auto mt-[40px] block w-max rounded-[30px] px-[30px] py-[10px] text-center text-[1.4rem] font-bold text-white transition-colors hover:bg-[#005239]/80"
     >
       View More Services
     </NuxtLink>
@@ -135,7 +135,7 @@
     </div>
     <NuxtLink
       href="/focus_areas"
-      class="bg-gold-navigation mx-auto mt-[40px] block w-max rounded-[30px] px-[30px] py-[10px] text-center text-[1.4rem] font-bold text-white transition-colors hover:bg-[#bf842b]/80"
+      class="bg-deep-green mx-auto mt-[40px] block w-max rounded-[30px] px-[30px] py-[10px] text-center text-[1.4rem] font-bold text-white transition-colors hover:bg-[#005239]/80"
     >
       View More Focus Areas
     </NuxtLink>

@@ -5,7 +5,7 @@
       <li
         v-for="link in navigationLinks"
         :key="link.path"
-        class="hover:text-primary hover:bg-gold-navigation flex min-w-[110px] items-center justify-center border-x border-x-white leading-[80px] font-medium hover:text-white"
+        class="hover:text-primary hover:bg-deep-green text-text-deep-red flex min-w-[110px] items-center justify-center border-x border-x-white leading-[80px] font-medium hover:text-white"
         :class="getNavigationBackgroundColor(link.path)"
       >
         <NuxtLink :to="link.path" class="px-[21px] text-[1.4rem]">
@@ -51,7 +51,7 @@ const route = useRoute()
 
 const getNavigationBackgroundColor = (linkPath: string) => {
   if (route.path === linkPath) {
-    return 'bg-gold-navigation text-white'
+    return 'bg-deep-green text-white'
   }
 }
 
