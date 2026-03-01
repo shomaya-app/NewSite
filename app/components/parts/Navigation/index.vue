@@ -30,7 +30,7 @@
   <transition name="fade">
     <nav
       v-if="isOpen"
-      class="pc:hidden fixed inset-0 z-[50] flex flex-col items-center justify-center bg-white"
+      class="pc:hidden bg-deep-green fixed inset-0 z-[50] flex flex-col items-center justify-center text-white"
     >
       <ul class="flex flex-col items-center space-y-8 text-2xl font-semibold">
         <li v-for="link in navigationLinks" :key="link.path">
