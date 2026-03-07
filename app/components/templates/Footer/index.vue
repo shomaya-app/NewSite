@@ -5,8 +5,8 @@
       <div class="mx-auto max-w-5xl px-4">
         <!-- ロゴ -->
         <NuxtLink to="/" class="text-xl tracking-wide">
-          Association Japan Bangladesh<br class="pc:hidden block" />Consulting &
-          Trading
+          Association Japan Bangladesh <br class="pc:hidden block" />Consulting
+          & Trading
         </NuxtLink>
       </div>
     </div>
