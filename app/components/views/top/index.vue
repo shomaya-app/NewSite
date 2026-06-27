@@ -6,7 +6,7 @@
     <PartsPageTitle
       title="Mission & Vision"
       description="Our mission and vision as a consulting and trading company in Bangladesh"
-      heightClass="pc:h-[300px] h-[200px]"
+      height-class="pc:h-[300px] h-[200px]"
     />
     <div class="mx-auto flex max-w-[768px] flex-col gap-[60px] px-[20px]">
       <div>
@@ -42,7 +42,7 @@
     <PartsPageTitle
       title="Strengths"
       description="Our strengths as a consulting and trading company in Bangladesh"
-      heightClass="pc:h-[300px] h-[200px]"
+      height-class="pc:h-[300px] h-[200px]"
     />
     <div class="mx-auto flex max-w-[768px] flex-col gap-[30px] px-[20px]">
       <div>
@@ -78,7 +78,7 @@
     <PartsPageTitle
       title="Services"
       description="Our services as a consulting and trading company in Bangladesh"
-      heightClass="pc:h-[300px] h-[200px]"
+      height-class="pc:h-[300px] h-[200px]"
     />
     <div class="mx-auto flex max-w-[768px] flex-col gap-[30px] px-[20px]">
       <div>
@@ -110,7 +110,7 @@
     <PartsPageTitle
       title="Focus Areas"
       description="Our focus areas as a consulting and trading company in Bangladesh"
-      heightClass="pc:h-[300px] h-[200px]"
+      height-class="pc:h-[300px] h-[200px]"
     />
     <div class="mx-auto flex max-w-[768px] flex-col gap-[30px] px-[20px]">
       <div>
@@ -228,7 +228,7 @@ onMounted(() => {
 })
 </script>
 
-<style>
+<style scoped>
 .fade-init {
   opacity: 0;
   transform: translateY(60px);
