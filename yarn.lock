@@ -1177,7 +1177,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/eslint@npm:^1.15.1":
+"@nuxt/eslint@npm:1.15.1":
   version: 1.15.1
   resolution: "@nuxt/eslint@npm:1.15.1"
   dependencies:
@@ -2515,7 +2515,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/vite@npm:^4.2.0":
+"@tailwindcss/vite@npm:4.2.0":
   version: 4.2.0
   resolution: "@tailwindcss/vite@npm:4.2.0"
   dependencies:
@@ -2537,7 +2537,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint-config-prettier@npm:^6.11.3":
+"@types/eslint-config-prettier@npm:6.11.3":
   version: 6.11.3
   resolution: "@types/eslint-config-prettier@npm:6.11.3"
   checksum: b69ad5d7452f614450fcaf78b4055cfb11afb632f1ef292a3229cb5ac9a7041106a85cf634c570fbd3bb9db59c8fee7ca0e32a059e6fcad2477e22d81d5c3ef3
@@ -2565,7 +2565,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^25.3.0":
+"@types/node@npm:25.3.0":
   version: 25.3.0
   resolution: "@types/node@npm:25.3.0"
   dependencies:
@@ -3171,7 +3171,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vuepic/vue-datepicker@npm:^12.1.0":
+"@vuepic/vue-datepicker@npm:12.1.0":
   version: 12.1.0
   resolution: "@vuepic/vue-datepicker@npm:12.1.0"
   dependencies:
@@ -3350,25 +3350,25 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:."
   dependencies:
-    "@nuxt/eslint": ^1.15.1
-    "@tailwindcss/vite": ^4.2.0
-    "@types/eslint-config-prettier": ^6.11.3
-    "@types/node": ^25.3.0
-    "@vuepic/vue-datepicker": ^12.1.0
-    dayjs-nuxt: ^2.1.11
-    eslint: ^10.0.1
-    eslint-config-prettier: ^10.1.8
-    husky: ^9.1.7
-    lint-staged: ^16.2.7
-    nuxt: ^4.3.1
-    prettier: ^3.8.1
-    prettier-plugin-tailwindcss: ^0.7.2
-    swiper: ^12.1.2
-    tailwindcss: ^4.2.0
-    typescript: ^5.9.3
-    vue: ^3.5.28
-    vue-router: ^4.6.4
-    vue-tsc: ^3.2.5
+    "@nuxt/eslint": 1.15.1
+    "@tailwindcss/vite": 4.2.0
+    "@types/eslint-config-prettier": 6.11.3
+    "@types/node": 25.3.0
+    "@vuepic/vue-datepicker": 12.1.0
+    dayjs-nuxt: 2.1.11
+    eslint: 10.0.1
+    eslint-config-prettier: 10.1.8
+    husky: 9.1.7
+    lint-staged: 16.2.7
+    nuxt: 4.3.1
+    prettier: 3.8.1
+    prettier-plugin-tailwindcss: 0.7.2
+    swiper: 12.1.2
+    tailwindcss: 4.2.0
+    typescript: 5.9.3
+    vue: 3.5.28
+    vue-router: 4.6.4
+    vue-tsc: 3.2.5
   languageName: unknown
   linkType: soft
 
@@ -4175,7 +4175,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs-nuxt@npm:^2.1.11":
+"dayjs-nuxt@npm:2.1.11":
   version: 2.1.11
   resolution: "dayjs-nuxt@npm:2.1.11"
   dependencies:
@@ -4645,7 +4645,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^10.1.8":
+"eslint-config-prettier@npm:10.1.8":
   version: 10.1.8
   resolution: "eslint-config-prettier@npm:10.1.8"
   peerDependencies:
@@ -4873,7 +4873,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^10.0.1":
+"eslint@npm:10.0.1":
   version: 10.0.1
   resolution: "eslint@npm:10.0.1"
   dependencies:
@@ -5542,7 +5542,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^9.1.7":
+"husky@npm:9.1.7":
   version: 9.1.7
   resolution: "husky@npm:9.1.7"
   bin:
@@ -6160,7 +6160,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^16.2.7":
+"lint-staged@npm:16.2.7":
   version: 16.2.7
   resolution: "lint-staged@npm:16.2.7"
   dependencies:
@@ -6904,7 +6904,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt@npm:^4.3.1":
+"nuxt@npm:4.3.1":
   version: 4.3.1
   resolution: "nuxt@npm:4.3.1"
   dependencies:
@@ -7879,7 +7879,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:^0.7.2":
+"prettier-plugin-tailwindcss@npm:0.7.2":
   version: 0.7.2
   resolution: "prettier-plugin-tailwindcss@npm:0.7.2"
   peerDependencies:
@@ -7937,7 +7937,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.8.1":
+"prettier@npm:3.8.1":
   version: 3.8.1
   resolution: "prettier@npm:3.8.1"
   bin:
@@ -8909,7 +8909,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swiper@npm:^12.1.2":
+"swiper@npm:12.1.2":
   version: 12.1.2
   resolution: "swiper@npm:12.1.2"
   checksum: 1b7fcc647573f7c58cb67a48265ad7a1667e991b66a9859295bf9ab8696c7427f39b34ba2b5e043bf828389b0f363bca1cba0bfbf10d5f459d26a7329352675a
@@ -8930,7 +8930,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:4.2.0, tailwindcss@npm:^4.2.0":
+"tailwindcss@npm:4.2.0":
   version: 4.2.0
   resolution: "tailwindcss@npm:4.2.0"
   checksum: cd8ab79ea2528b303946d9e8de10ffb2fcf635a32ba0fc8b29730da3d1356a1d7925b0dd6e908614c6660ad68681fcb1a882e46324757f256552068b1d25975f
@@ -9096,7 +9096,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.9.3":
+"typescript@npm:5.9.3":
   version: 5.9.3
   resolution: "typescript@npm:5.9.3"
   bin:
@@ -9106,7 +9106,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^5.9.3#~builtin<compat/typescript>":
+"typescript@patch:typescript@5.9.3#~builtin<compat/typescript>":
   version: 5.9.3
   resolution: "typescript@patch:typescript@npm%3A5.9.3#~builtin<compat/typescript>::version=5.9.3&hash=379a07"
   bin:
@@ -9756,7 +9756,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-router@npm:^4.6.4":
+"vue-router@npm:4.6.4, vue-router@npm:^4.6.4":
   version: 4.6.4
   resolution: "vue-router@npm:4.6.4"
   dependencies:
@@ -9767,7 +9767,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-tsc@npm:^3.2.5":
+"vue-tsc@npm:3.2.5":
   version: 3.2.5
   resolution: "vue-tsc@npm:3.2.5"
   dependencies:
@@ -9781,7 +9781,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:^3.5.27, vue@npm:^3.5.28":
+"vue@npm:3.5.28, vue@npm:^3.5.27":
   version: 3.5.28
   resolution: "vue@npm:3.5.28"
   dependencies:
