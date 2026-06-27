@@ -5,8 +5,8 @@
       <div class="mx-auto max-w-5xl px-4">
         <!-- ロゴ -->
         <NuxtLink to="/" class="text-xl tracking-wide">
-          Association Japan Bangladesh<br class="pc:hidden block" />Consulting &
-          Trading
+          Association Japan Bangladesh <br class="pc:hidden block" />Consulting
+          & Trading
         </NuxtLink>
       </div>
     </div>
@@ -25,9 +25,7 @@
     </div>
 
     <!-- コピーライト -->
-    <div
-      class="bg-gold-navigation border-t py-6 text-center text-xs text-white"
-    >
+    <div class="bg-deep-green border-t py-6 text-center text-xs text-white">
       <small>
         Copyright © {{ year }}
         Association Japan Bangladesh Consulting & Trading All Rights Reserved.

@@ -17,9 +17,11 @@ html {
   --breakpoint-pc: 1024px;
   /* Text */
   --color-text-link: #2677f0;
+  --color-text-deep-red: #ae2116;
 
   /* Color */
   --color-gold-navigation: #bf842b;
+  --color-deep-green: #005239;
 
   /* font */
   --font-NotoSansJP: 'Noto Sans JP', sans-serif;

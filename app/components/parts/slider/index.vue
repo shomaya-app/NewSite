@@ -52,12 +52,12 @@ const props = defineProps<Props>()
 <style>
 /* アクティブドット */
 .swiper-pagination-bullet-active {
-  background-color: #bf842b; /* ゴールド */
+  background-color: #005239; /* ゴールド */
 }
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: #bf842b; /* ゴールド */
+  color: #005239; /* ゴールド */
 }
 
 @media (max-width: 768px) {
@@ -70,6 +70,6 @@ const props = defineProps<Props>()
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  color: #bf842b; /* ゴールド */
+  color: #005239; /* ゴールド */
 }
 </style>

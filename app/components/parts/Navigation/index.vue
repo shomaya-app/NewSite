@@ -5,7 +5,7 @@
       <li
         v-for="link in navigationLinks"
         :key="link.path"
-        class="hover:text-primary hover:bg-gold-navigation flex min-w-[110px] items-center justify-center border-x border-x-white leading-[80px] font-medium hover:text-white"
+        class="hover:text-primary hover:bg-deep-green text-text-deep-red flex min-w-[110px] items-center justify-center border-x border-x-white leading-[80px] font-medium hover:text-white"
         :class="getNavigationBackgroundColor(link.path)"
       >
         <NuxtLink :to="link.path" class="px-[21px] text-[1.4rem]">
@@ -30,7 +30,7 @@
   <transition name="fade">
     <nav
       v-if="isOpen"
-      class="pc:hidden fixed inset-0 z-[50] flex flex-col items-center justify-center bg-white"
+      class="pc:hidden bg-deep-green fixed inset-0 z-[50] flex flex-col items-center justify-center text-white"
     >
       <ul class="flex flex-col items-center space-y-8 text-2xl font-semibold">
         <li v-for="link in navigationLinks" :key="link.path">
@@ -51,7 +51,7 @@ const route = useRoute()
 
 const getNavigationBackgroundColor = (linkPath: string) => {
   if (route.path === linkPath) {
-    return 'bg-gold-navigation text-white'
+    return 'bg-deep-green text-white'
   }
 }
 
