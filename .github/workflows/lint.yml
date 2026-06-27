@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4.3.1
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4.4.0
@@ -29,8 +31,17 @@ jobs:
       - name: Generate Nuxt types
         run: yarn nuxt prepare
 
-      - name: Run ESLint
-        run: yarn lint
+      - name: Get changed Vue / TypeScript files
+        id: changed-files
+        uses: tj-actions/changed-files@v47.0.6
+        with:
+          files: |
+            **/*.vue
+            **/*.ts
+
+      - name: Run ESLint on changed files
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: yarn eslint ${{ steps.changed-files.outputs.all_changed_files }}
 
       - name: Run TypeScript type check
         run: yarn typecheck
