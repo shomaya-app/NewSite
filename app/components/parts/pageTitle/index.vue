@@ -22,11 +22,11 @@ type Props = {
 const props = defineProps<Props>()
 
 const getHeightClass = () => {
-  return props.heightClass ? props.heightClass : 'pc:h-[450px] h-[250px]'
+  return props.heightClass ?? 'pc:h-[450px] h-[250px]'
 }
 </script>
 
-<style>
+<style scoped>
 .fade-enter-active {
   transition: opacity 1.5s ease 0.2s;
 }

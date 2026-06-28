@@ -1,35 +1,32 @@
 // @ts-check
 import withNuxt from './.nuxt/eslint.config.mjs'
-import eslintConfigPrettier from 'eslint-config-prettier'
+import { sharedRules } from '@shomaya-app/eslint-config-nuxt'
 
-export default withNuxt([
+export default withNuxt(
+  .../** @type {any[]} */ (sharedRules),
+
+  // ─── Nuxt: プロジェクト固有のルール ──────────────────────────────
   {
-    files: ['**/*.vue', '**/*.ts'],
-    languageOptions: {
-      parserOptions: {
-        project: './tsconfig.eslint.json',
-      }
-    },
+    files: ['**/*.vue'],
     rules: {
-      '@typescript-eslint/no-explicit-any': 'off',
-      '@typescript-eslint/no-floating-promises': 'error',
-      'vue/html-self-closing': [
+      // <a> タグの代わりに <NuxtLink> を使用
+      // 内部リンク: <NuxtLink to="/path">、外部リンク: <NuxtLink to="..." external>
+      'vue/no-restricted-html-elements': [
         'error',
         {
-          html: {
-            void: 'any',
-          }
-        }
+          element: 'a',
+          message: '<a> タグは使用禁止です。内部リンクは <NuxtLink to="...">、外部リンクは <NuxtLink to="..." external> を使用してください。',
+        },
       ],
-      '@typescript-eslint/no-unused-vars': [
-        'error',
-        {
-          caughtErrorsIgnorePattern: '^_',
-        }
-      ],
-      'vue/component-api-style': ['error', ['script-setup']],
-      'vue/enforce-style-attribute': ['error', { 'allow': ['scoped'] }]
-    }
+    },
   },
-  eslintConfigPrettier
-])
+
+  // ─── Nuxt: レイアウト固有の例外 ───────────────────────────────────
+  {
+    files: ['app/layouts/**/*.vue'],
+    rules: {
+      // Nuxt のレイアウトは Header・main・Footer など複数ルートが一般的（Vue 3 フラグメント）
+      'vue/no-multiple-template-root': 'off',
+    },
+  },
+)

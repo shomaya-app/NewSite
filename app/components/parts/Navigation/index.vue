@@ -17,12 +17,12 @@
 
   <!-- 🔥 ハンバーガー右上固定 -->
   <button
-    @click="toggleMenu"
     class="pc:hidden fixed top-[32px] right-[24px] z-[60]"
+    @click="toggleMenu"
   >
     <PartsSvgIcons
       :icon="isOpen ? 'CloseMenu' : 'HamburgerMenu'"
-      svgClass="w-[32px] h-[32px]"
+      svg-class="w-[32px] h-[32px]"
     />
   </button>
 
@@ -73,7 +73,7 @@ watch(isOpen, (val) => {
 const navigationLinks = NAV_LINKS
 </script>
 
-<style>
+<style scoped>
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.35s ease;

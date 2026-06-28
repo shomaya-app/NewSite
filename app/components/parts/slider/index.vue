@@ -49,7 +49,7 @@ type Props = {
 const props = defineProps<Props>()
 </script>
 
-<style>
+<style scoped>
 /* アクティブドット */
 .swiper-pagination-bullet-active {
   background-color: #005239; /* ゴールド */
