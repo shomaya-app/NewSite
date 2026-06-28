@@ -25,7 +25,7 @@
   },
   "packageManager": "yarn@3.8.3",
   "devDependencies": {
-    "@mayaharadev/eslint-config-nuxt": "github:shomaya-app/eslint-config-nuxt",
+    "@shomaya-app/eslint-config-nuxt": "1.0.0",
     "@tailwindcss/vite": "4.2.0",
     "@types/eslint-config-prettier": "6.11.3",
     "@types/node": "25.3.0",

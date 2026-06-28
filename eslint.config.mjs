@@ -1,6 +1,6 @@
 // @ts-check
 import withNuxt from './.nuxt/eslint.config.mjs'
-import { sharedRules } from '@mayaharadev/eslint-config-nuxt'
+import { sharedRules } from '@shomaya-app/eslint-config-nuxt'
 
 export default withNuxt(
   .../** @type {any[]} */ (sharedRules),
