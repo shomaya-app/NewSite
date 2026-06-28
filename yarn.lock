@@ -928,6 +928,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mayaharadev/eslint-config-nuxt@github:shomaya-app/eslint-config-nuxt":
+  version: 1.0.0
+  resolution: "@mayaharadev/eslint-config-nuxt@https://github.com/shomaya-app/eslint-config-nuxt.git#commit=00b973a0eb83f6b79ddd6f2ddec4ddf1d42c41c2"
+  peerDependencies:
+    eslint: "*"
+    eslint-config-prettier: "*"
+    eslint-plugin-unicorn: "*"
+  checksum: 7701cd3c35f52201e2b89364534828c238ea867674af8b9b323db095eaaa74179ad50c7e0c1cb4cc1980ebefd266d4ea4db968d79c431592b4e532c95bdccd66
+  languageName: node
+  linkType: hard
+
 "@napi-rs/wasm-runtime@npm:^0.2.11":
   version: 0.2.12
   resolution: "@napi-rs/wasm-runtime@npm:0.2.12"
@@ -3350,6 +3361,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:."
   dependencies:
+    "@mayaharadev/eslint-config-nuxt": "github:shomaya-app/eslint-config-nuxt"
     "@nuxt/eslint": 1.15.1
     "@tailwindcss/vite": 4.2.0
     "@types/eslint-config-prettier": 6.11.3
@@ -3358,6 +3370,7 @@ __metadata:
     dayjs-nuxt: 2.1.11
     eslint: 10.0.1
     eslint-config-prettier: 10.1.8
+    eslint-plugin-unicorn: 62.0.0
     husky: 9.1.7
     lint-staged: 16.2.7
     nuxt: 4.3.1
@@ -4766,7 +4779,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:^62.0.0":
+"eslint-plugin-unicorn@npm:62.0.0, eslint-plugin-unicorn@npm:^62.0.0":
   version: 62.0.0
   resolution: "eslint-plugin-unicorn@npm:62.0.0"
   dependencies:

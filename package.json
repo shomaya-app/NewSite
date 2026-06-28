@@ -25,10 +25,12 @@
   },
   "packageManager": "yarn@3.8.3",
   "devDependencies": {
+    "@mayaharadev/eslint-config-nuxt": "github:shomaya-app/eslint-config-nuxt",
     "@tailwindcss/vite": "4.2.0",
     "@types/eslint-config-prettier": "6.11.3",
     "@types/node": "25.3.0",
     "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-unicorn": "62.0.0",
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
     "prettier": "3.8.1",
